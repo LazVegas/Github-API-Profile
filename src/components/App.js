@@ -4,6 +4,8 @@ import store from "../redux/store"
 import { useGithub} from '../redux/ducks/github'
 import User from './User'
 import Repos from './Repos'
+import gitcat from '../assets/gitcat.jpg'
+{/* import 'font-awesome/css/font-awesome.min.css' */}
 
 function Wrap() {
   return (
@@ -19,7 +21,8 @@ function App() {
   return (
       <div className="container">
           <div className="headerWrapper">
-            <img id="gitcat" src="../styles/gitcat.jpg" />
+            <img id="gitcat" src={gitcat}/>
+            {/* <i class="fa fa-github-square"></i> */}
             <input type="text" placeholder="Search or jump to..." id="search" />
             <div id="pull">Pull requests</div>
             <div id="issues">Issues</div>

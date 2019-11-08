@@ -37,6 +37,17 @@ code {
   margin-left: 20px;
 }
 
+i {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+i.fa.fa-github-square::before {
+
+  font-size: 40px;
+}
+
 #search {
   width: 300px;
   height: 30px;
@@ -54,8 +65,6 @@ code {
   font-size: 20px;
   font-weight: bold;
 }
-
-
 
 /* ---------- Start: Header ---------- */
 
@@ -92,6 +101,8 @@ code {
 #findrepo {
   width: 800px;
   height: 40px;
+  font-size: 20px;
+  padding-left: 20px;
 }
 
 #type {
@@ -123,7 +134,7 @@ code {
   flex-direction: column;
   justify-content: center;
   width: 1400px;
-  height: 100px;
+  height: 150px;
   color: rgb(0,95,205);
   padding-left: 50px;
   border-bottom: 1px solid rgb(221,224,228);
